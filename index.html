@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn to Code with Notes</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" type="image/png" href="images\favicon-32x32.png"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+
+</head>
+
+<body class="karla text-[#2b2839] bg-[#eef6f0] " data-scroll-container>
+    <nav class="flex justify-between px-3 py-3 text-xl  flex-col sm:flex-row" data-scroll-section>
+        <div data-scroll-section>
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 "
+                href="index.html">
+                <img src="images\Logo.png" alt="" class="h-[40px]">
+                <span class="ml-3 text-xl font-bold" data-scroll data-scroll-repeat
+                    data-scroll-call="toggleBackToTop">NotesVerse</span>
+            </a>
+        </div>
+        <ul class="flex  justify-around sm:space-x-20" data-scroll-section>
+            <li><a href="#about"
+                    class="hover:underline-offset-8 hover:underline decoration-4 duration-100">About</a></li>
+            <li><a href="notes.html"
+                    class="hover:underline-offset-8 hover:underline decoration-4 duration-100">Notes</a></li>
+            <li><a href="#contact"
+                    class="hover:underline-offset-8 hover:underline decoration-4 duration-100">Contact</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <section class="hero flex flex-col items-center  pt-14 hero1 sm:bg-contain bg-cover" >
+        <div class="text-2xl font-semibold py-5 md:text-3xl">Featured Notes: Java Oop</div>
+        <div class="text-4xl font-bold py-2 sm:text-7xl">Don't spend &#8377;XY on</div>
+        <div class="text-4xl font-bold py-2 sm:text-7xl ">a coding bootcamp</div>
+        <div class="text-xl font-semibold py-5 flex flex-col sm:text-3xl" >
+            <p class="pb-2">Organize your thoughts , unlock your potential</p>
+            <p> Elevate your ideas: with our notes website</p>
+        </div>
+        <div class="button"><a href="notes.html"><button
+            class="bg-blue-600 text-white font-bold text-lg sm:text-xl px-4 py-2 rounded-md hover:-translate-y-1 duration-75 hover:bg-blue-500 hover:drop-shadow-2xl">Visit
+            Notes</button></a> </div>
+    </section>
+
+    <div class="flex justify-center pt-14" >
+        <img src="images\peep-crowd.svg" alt="">
+    </div>
+
+    <section class="next-section  bg-[#fffad1] flex   items-center justify-center space-x-16 -translate-y-2 sm:flex-row flex-col" id="about" >
+        <div class="sm:py-20 py-10">
+
+            <div class="bg-[#334155] sm:h[250px] h-[200px] md:h-[357px] z-0  origin-bottom -rotate-12 border-8 border-white">
+                <div class="border-8 border-white rounded-md z-10 origin-bottom rotate-12 hover:-translate-y-1 duration-75">
+                    <img src="images\Sovan.jpg" alt="" class="md:h-[357px] sm:h[250px]  h-[200px] rounded-md">
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col sm:items-start items-center sm:w-1/2 space-y-7 justify-center py-10 sm:py-0">
+            <div class="font-bold text-3xl justify-center px-2 sm:text-4xl md:text-4xl lg:text-5xl">
+                Organizing notes boosts memory, productivity,  creativity  and reduces stress
+            </div>
+            <div class="flex">
+                <div class="w-7 bg-[#c6b8ff]">
+
+                </div>
+                <div class="text-lg md:text-xl lg:text-2xl pl-5">
+                    As a CSE(AIML) student in my 2nd year, I have a strong interest in web development and competitive programming. I have built this website using HTML, CSS, and a little JS for storing all the notes in one place.
+                </div>
+            </div>
+            <div class="flex space-x-2">
+                <span class="font-bold text-xl">Sovan Roy |  <a href="mailto:roysovan00@gmail.com" class="underline underline-offset-8 decoration-2">roysovan00@gmail.com</a></span>
+                <a href="https://instagram.com/sovan_roy10?igshid=ZDdkNTZiNTM=" target="_blank"><img src="images\insta.png" alt="" class="h-9 hover:-translate-y-1 duration-75"></a>
+                <a href="https://www.linkedin.com/in/sovan-roy-00/" target="_blank"><img src="images\linkdin.png" alt="" class="h-8 hover:-translate-y-1 duration-75"></a>
+            </div>
+        </div>
+    </section>
+   
+    <section id="contact" >
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 ">Contact Me</h2>
+            <p class="mb-8 lg:mb-16 font-light text-center text-gray-500  sm:text-xl">Got a technical issue? Want to send feedback about a feature?  Let us know.</p>
+            <form action="https://formsubmit.co/your@email.com" method="POST" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2  font-bold text-gray-900 ">Your email</label>
+                    <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " placeholder="name@xyz.com" required>
+                </div>
+                <div>
+                    <label for="subject" class="block mb-2  font-bold text-gray-900 ">Subject</label>
+                    <input type="text" id="subject" class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 " placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2  font-bold text-gray-900 ">Your message</label>
+                    <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 " placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit" class="py-3 px-5  font-bold text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 bg-blue-700 hover:-translate-y-1 duration-75 hover:bg-blue-600">Send message</button>
+            </form>
+        </div>
+      </section>
+
+      <footer class="text-gray-600 body-font footer-background sm:bg-contain bg-cover  drop-shadow-2xl">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="index.html">
+                   <img src="images\Logo.png" alt="" class="h-[40px]">
+                    <span class="ml-3 text-xl font-bold">NotesVerse</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Notes of different subjects avaiable</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">JAVA BASICS</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">JAVASRCIPT</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">DSA</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">HTML</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">CSS</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">JAVA OOP</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">EMAIL</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">roysovan00@gmail.com</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+   <script src="index.js" type="module"></script>
+   
+</body>
+
+</html>
